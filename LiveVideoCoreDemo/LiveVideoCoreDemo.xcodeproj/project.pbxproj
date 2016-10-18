@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F2E62E1DB4BF8300852DFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F2E62D1DB4BF8300852DFA /* main.m */; };
+		04F2E6311DB4BF8300852DFA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F2E6301DB4BF8300852DFA /* AppDelegate.m */; };
+		04F2E6341DB4BF8300852DFA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F2E6331DB4BF8300852DFA /* ViewController.m */; };
+		04F2E6371DB4BF8300852DFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F2E6351DB4BF8300852DFA /* Main.storyboard */; };
+		04F2E63C1DB4BF8300852DFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F2E63A1DB4BF8300852DFA /* LaunchScreen.storyboard */; };
+		04F2E64D1DB4C3A800852DFA /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F2E64C1DB4C3A800852DFA /* libstdc++.tbd */; };
+		04F2E64F1DB4C3AE00852DFA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F2E64E1DB4C3AE00852DFA /* libz.tbd */; };
+		04F2E6511DB4C3B400852DFA /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F2E6501DB4C3B400852DFA /* CoreVideo.framework */; };
+		04F2E6531DB4C3BB00852DFA /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F2E6521DB4C3BB00852DFA /* VideoToolbox.framework */; };
+		04F2E6551DB4C3C100852DFA /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F2E6541DB4C3C100852DFA /* OpenGLES.framework */; };
+		04F2E6571DB4C3C800852DFA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F2E6561DB4C3C800852DFA /* CoreMedia.framework */; };
+		04F2E6591DB4C3D000852DFA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F2E6581DB4C3D000852DFA /* CFNetwork.framework */; };
+		04F2E65B1DB4C3D800852DFA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F2E65A1DB4C3D800852DFA /* AudioToolbox.framework */; };
+		04F2E65D1DB4C3E200852DFA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F2E65C1DB4C3E200852DFA /* AVFoundation.framework */; };
+		04F2E65F1DB4C40200852DFA /* libLiveVideoCoreSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F2E65E1DB4C40200852DFA /* libLiveVideoCoreSDK.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04F2E6291DB4BF8300852DFA /* LiveVideoCoreDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveVideoCoreDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F2E62D1DB4BF8300852DFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04F2E62F1DB4BF8300852DFA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04F2E6301DB4BF8300852DFA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04F2E6321DB4BF8300852DFA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04F2E6331DB4BF8300852DFA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04F2E6361DB4BF8300852DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04F2E63B1DB4BF8300852DFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04F2E63D1DB4BF8300852DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F2E64A1DB4C29700852DFA /* libLiveVideoCoreSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLiveVideoCoreSDK.a; path = "../build/Debug-iphoneos/libLiveVideoCoreSDK.a"; sourceTree = "<group>"; };
+		04F2E64C1DB4C3A800852DFA /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		04F2E64E1DB4C3AE00852DFA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		04F2E6501DB4C3B400852DFA /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		04F2E6521DB4C3BB00852DFA /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		04F2E6541DB4C3C100852DFA /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		04F2E6561DB4C3C800852DFA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		04F2E6581DB4C3D000852DFA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		04F2E65A1DB4C3D800852DFA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		04F2E65C1DB4C3E200852DFA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		04F2E65E1DB4C40200852DFA /* libLiveVideoCoreSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLiveVideoCoreSDK.a; path = "../../../Library/Developer/Xcode/DerivedData/HDLiveVideoCoreDemo-atbkcpqjerlbeafuefvpiepobtxn/Build/Products/Debug-iphoneos/libLiveVideoCoreSDK.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F2E6261DB4BF8300852DFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F2E65F1DB4C40200852DFA /* libLiveVideoCoreSDK.a in Frameworks */,
+				04F2E65D1DB4C3E200852DFA /* AVFoundation.framework in Frameworks */,
+				04F2E65B1DB4C3D800852DFA /* AudioToolbox.framework in Frameworks */,
+				04F2E6591DB4C3D000852DFA /* CFNetwork.framework in Frameworks */,
+				04F2E6571DB4C3C800852DFA /* CoreMedia.framework in Frameworks */,
+				04F2E6551DB4C3C100852DFA /* OpenGLES.framework in Frameworks */,
+				04F2E6531DB4C3BB00852DFA /* VideoToolbox.framework in Frameworks */,
+				04F2E6511DB4C3B400852DFA /* CoreVideo.framework in Frameworks */,
+				04F2E64F1DB4C3AE00852DFA /* libz.tbd in Frameworks */,
+				04F2E64D1DB4C3A800852DFA /* libstdc++.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F2E6201DB4BF8300852DFA = {
+			isa = PBXGroup;
+			children = (
+				04F2E62B1DB4BF8300852DFA /* LiveVideoCoreDemo */,
+				04F2E62A1DB4BF8300852DFA /* Products */,
+				04F2E6491DB4C29700852DFA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04F2E62A1DB4BF8300852DFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F2E6291DB4BF8300852DFA /* LiveVideoCoreDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F2E62B1DB4BF8300852DFA /* LiveVideoCoreDemo */ = {
+			isa = PBXGroup;
+			children = (
+				04F2E62F1DB4BF8300852DFA /* AppDelegate.h */,
+				04F2E6301DB4BF8300852DFA /* AppDelegate.m */,
+				04F2E6321DB4BF8300852DFA /* ViewController.h */,
+				04F2E6331DB4BF8300852DFA /* ViewController.m */,
+				04F2E6351DB4BF8300852DFA /* Main.storyboard */,
+				04F2E63A1DB4BF8300852DFA /* LaunchScreen.storyboard */,
+				04F2E63D1DB4BF8300852DFA /* Info.plist */,
+				04F2E62C1DB4BF8300852DFA /* Supporting Files */,
+			);
+			path = LiveVideoCoreDemo;
+			sourceTree = "<group>";
+		};
+		04F2E62C1DB4BF8300852DFA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04F2E62D1DB4BF8300852DFA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04F2E6491DB4C29700852DFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04F2E65E1DB4C40200852DFA /* libLiveVideoCoreSDK.a */,
+				04F2E65C1DB4C3E200852DFA /* AVFoundation.framework */,
+				04F2E65A1DB4C3D800852DFA /* AudioToolbox.framework */,
+				04F2E6581DB4C3D000852DFA /* CFNetwork.framework */,
+				04F2E6561DB4C3C800852DFA /* CoreMedia.framework */,
+				04F2E6541DB4C3C100852DFA /* OpenGLES.framework */,
+				04F2E6521DB4C3BB00852DFA /* VideoToolbox.framework */,
+				04F2E6501DB4C3B400852DFA /* CoreVideo.framework */,
+				04F2E64E1DB4C3AE00852DFA /* libz.tbd */,
+				04F2E64C1DB4C3A800852DFA /* libstdc++.tbd */,
+				04F2E64A1DB4C29700852DFA /* libLiveVideoCoreSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F2E6281DB4BF8300852DFA /* LiveVideoCoreDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F2E6401DB4BF8300852DFA /* Build configuration list for PBXNativeTarget "LiveVideoCoreDemo" */;
+			buildPhases = (
+				04F2E6251DB4BF8300852DFA /* Sources */,
+				04F2E6261DB4BF8300852DFA /* Frameworks */,
+				04F2E6271DB4BF8300852DFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveVideoCoreDemo;
+			productName = LiveVideoCoreDemo;
+			productReference = 04F2E6291DB4BF8300852DFA /* LiveVideoCoreDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F2E6211DB4BF8300852DFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = HarryDeng;
+				TargetAttributes = {
+					04F2E6281DB4BF8300852DFA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = B9FH944VTE;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 04F2E6241DB4BF8300852DFA /* Build configuration list for PBXProject "LiveVideoCoreDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F2E6201DB4BF8300852DFA;
+			productRefGroup = 04F2E62A1DB4BF8300852DFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F2E6281DB4BF8300852DFA /* LiveVideoCoreDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F2E6271DB4BF8300852DFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F2E63C1DB4BF8300852DFA /* LaunchScreen.storyboard in Resources */,
+				04F2E6371DB4BF8300852DFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F2E6251DB4BF8300852DFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F2E6341DB4BF8300852DFA /* ViewController.m in Sources */,
+				04F2E6311DB4BF8300852DFA /* AppDelegate.m in Sources */,
+				04F2E62E1DB4BF8300852DFA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04F2E6351DB4BF8300852DFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F2E6361DB4BF8300852DFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04F2E63A1DB4BF8300852DFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F2E63B1DB4BF8300852DFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F2E63E1DB4BF8300852DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04F2E63F1DB4BF8300852DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F2E6411DB4BF8300852DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B9FH944VTE;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = ../LiveVideoCoreSDK/;
+				INFOPLIST_FILE = LiveVideoCoreDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youlian365.youyubao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "39268366-22ce-4f40-b5a4-9d9e1c52eb60";
+				PROVISIONING_PROFILE_SPECIFIER = youyubao_dev;
+			};
+			name = Debug;
+		};
+		04F2E6421DB4BF8300852DFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = ../LiveVideoCoreSDK/;
+				INFOPLIST_FILE = LiveVideoCoreDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.youlian365.youyubao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F2E6241DB4BF8300852DFA /* Build configuration list for PBXProject "LiveVideoCoreDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F2E63E1DB4BF8300852DFA /* Debug */,
+				04F2E63F1DB4BF8300852DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F2E6401DB4BF8300852DFA /* Build configuration list for PBXNativeTarget "LiveVideoCoreDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F2E6411DB4BF8300852DFA /* Debug */,
+				04F2E6421DB4BF8300852DFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F2E6211DB4BF8300852DFA /* Project object */;
+}
